@@ -21,17 +21,17 @@ Homeware Sense是一个统一的环境感知技能，允许OpenClaw AI助手感�
 将此技能文件夹复制到OpenClaw的skills目录：
 
 ```bash
-git clone https://github.com/jiawei686/homeware-sense.git
-cp -r homeware-sense ~/.openclaw/skills/
+git clone https://github.com/jiawei686/homeware-sense-skill.git
+cp -r homeware-sense-skill ~/.openclaw/skills/
 ```
 
 或者直接下载到您的OpenClaw技能目录：
 
 ```bash
 cd ~/.openclaw/skills/
-wget https://github.com/jiawei686/homeware-sense/archive/main.zip
+wget https://github.com/jiawei686/homeware-sense-skill/archive/main.zip
 unzip main.zip
-mv homeware-sense-main homeware-sense
+mv homeware-sense-skill-main homeware-sense-skill
 ```
 
 ### Python API
